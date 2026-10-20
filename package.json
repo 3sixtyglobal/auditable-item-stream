@@ -1,5 +1,5 @@
 {
-	"name": "@3sixty/auditable-item-stream",
+	"name": "3sixty-auditable-item-stream",
 	"version": "0.0.0",
 	"description": "Monorepo for auditable item stream models, service, and REST client packages.",
 	"repository": {
