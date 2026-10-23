@@ -1,6 +1,6 @@
 {
 	"name": "@3sixty/auditable-item-stream-models",
-	"version": "0.20.0-next.0",
+	"version": "0.20.0-next.1",
 	"description": "Shared data contracts, schemas, and topic constants for auditable item stream components.",
 	"repository": {
 		"type": "git",
