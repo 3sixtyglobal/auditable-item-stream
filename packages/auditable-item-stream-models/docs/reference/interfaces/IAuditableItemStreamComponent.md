@@ -190,7 +190,7 @@ The direction for the order, defaults to descending.
 
 ##### properties?
 
-keyof [`IAuditableItemStream`](IAuditableItemStream.md)[]
+(keyof [`IAuditableItemStream`](IAuditableItemStream.md))[]
 
 The properties to return, if not provided defaults to id, dateCreated, dateModified and annotationObject.
 

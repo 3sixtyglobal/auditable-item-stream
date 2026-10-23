@@ -302,7 +302,7 @@ The direction for the order, defaults to descending.
 
 ##### properties?
 
-keyof `IAuditableItemStream`[]
+(keyof `IAuditableItemStream`)[]
 
 The properties to return, if not provided defaults to id, created and object.
 
