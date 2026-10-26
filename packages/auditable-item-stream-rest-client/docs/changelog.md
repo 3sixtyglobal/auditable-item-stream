@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.20.0-next.2](https://github.com/3sixtyglobal/auditable-item-stream/compare/auditable-item-stream-rest-client-v0.20.0-next.1...auditable-item-stream-rest-client-v0.20.0-next.2) (2026-10-26)
+
+
+### Features
+
+* release to next [skip ci] ([#19](https://github.com/3sixtyglobal/auditable-item-stream/issues/19)) ([5af4b35](https://github.com/3sixtyglobal/auditable-item-stream/commit/5af4b3521c5ab381d65a8dc741672399d05bb220))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @3sixty/auditable-item-stream-models bumped from 0.20.0-next.1 to 0.20.0-next.2
+
 ## [0.20.0-next.1](https://github.com/3sixtyglobal/auditable-item-stream/compare/auditable-item-stream-rest-client-v0.20.0-next.0...auditable-item-stream-rest-client-v0.20.0-next.1) (2026-10-23)
 
 
