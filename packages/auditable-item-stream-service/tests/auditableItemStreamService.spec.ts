@@ -21,6 +21,7 @@ import {
 	BaseError,
 	ComponentFactory,
 	Converter,
+	DurationConstants,
 	Is,
 	ObjectHelper,
 	RandomHelper,
@@ -827,7 +828,7 @@ describe("AuditableItemStreamService", () => {
 		});
 		await streamEntryStorage.set({
 			...entryStore[2],
-			dateCreated: new Date(SECOND_TICK + 1000).toISOString()
+			dateCreated: new Date(SECOND_TICK + DurationConstants.MsPerSecond).toISOString()
 		});
 
 		await waitForProofGeneration(4);
@@ -848,7 +849,7 @@ describe("AuditableItemStreamService", () => {
 			{
 				id: thirdEntryId,
 				type: AuditableItemStreamTypes.StreamEntry,
-				dateCreated: new Date(SECOND_TICK + 1000).toISOString(),
+				dateCreated: new Date(SECOND_TICK + DurationConstants.MsPerSecond).toISOString(),
 				entryObject: {
 					"@context": "https://www.w3.org/ns/activitystreams",
 					"@type": "Note",
@@ -1614,7 +1615,7 @@ describe("AuditableItemStreamService", () => {
 			}
 		});
 
-		await new Promise(resolve => setTimeout(resolve, 1000));
+		await new Promise(resolve => setTimeout(resolve, DurationConstants.MsPerSecond));
 
 		const stream = await service.get(streamId, undefined, undefined, {
 			includeEntries: true,
