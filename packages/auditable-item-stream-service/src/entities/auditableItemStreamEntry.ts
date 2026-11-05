@@ -1,4 +1,5 @@
 // Copyright 2024 IOTA Stiftung.
+// Copyright 2026 3Sixty Trade Ltd.
 // SPDX-License-Identifier: Apache-2.0.
 import { type IJsonLdNodeObject, JsonLdTypes } from "@3sixty/data-json-ld";
 import { entity, property, SortDirection } from "@3sixty/entity";
@@ -17,7 +18,7 @@ export class AuditableItemStreamEntry {
 	/**
 	 * The stream that the entry belongs to.
 	 */
-	@property({ type: "string", maxLength: 255 })
+	@property({ type: "string", maxLength: 255, isSecondary: true })
 	public streamId!: string;
 
 	/**
