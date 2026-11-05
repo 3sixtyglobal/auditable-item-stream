@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.20.0-next.3](https://github.com/3sixtyglobal/auditable-item-stream/compare/auditable-item-stream-service-v0.20.0-next.2...auditable-item-stream-service-v0.20.0-next.3) (2026-11-05)
+
+
+### Bug Fixes
+
+* index the stream id of stream entries ([#23](https://github.com/3sixtyglobal/auditable-item-stream/issues/23)) ([8427b21](https://github.com/3sixtyglobal/auditable-item-stream/commit/8427b21a3ddfe68f49fa4c405a86064210acc3bb)), refs [#21](https://github.com/3sixtyglobal/auditable-item-stream/issues/21)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @3sixty/auditable-item-stream-models bumped from 0.20.0-next.2 to 0.20.0-next.3
+
 ## [0.20.0-next.2](https://github.com/3sixtyglobal/auditable-item-stream/compare/auditable-item-stream-service-v0.20.0-next.1...auditable-item-stream-service-v0.20.0-next.2) (2026-10-26)
 
 

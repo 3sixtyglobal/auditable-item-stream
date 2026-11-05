@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.20.0-next.3](https://github.com/3sixtyglobal/auditable-item-stream/compare/auditable-item-stream-models-v0.20.0-next.2...auditable-item-stream-models-v0.20.0-next.3) (2026-11-05)
+
+
+### Miscellaneous Chores
+
+* **auditable-item-stream-models:** Synchronize repo versions
+
 ## [0.20.0-next.2](https://github.com/3sixtyglobal/auditable-item-stream/compare/auditable-item-stream-models-v0.20.0-next.1...auditable-item-stream-models-v0.20.0-next.2) (2026-10-26)
 
 
