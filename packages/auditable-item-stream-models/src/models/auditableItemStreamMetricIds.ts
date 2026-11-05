@@ -4,7 +4,6 @@
 /**
  * Metric IDs for the auditable item stream service.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const AuditableItemStreamMetricIds = {
 	/**
 	 * Number of streams created.

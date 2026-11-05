@@ -6,7 +6,6 @@ import { AuditableItemStreamMetricIds } from "./auditableItemStreamMetricIds.js"
 /**
  * Metrics registered by the auditable item stream service.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const AuditableItemStreamMetrics: ITelemetryMetric[] = [
 	{
 		id: AuditableItemStreamMetricIds.StreamsCreated,

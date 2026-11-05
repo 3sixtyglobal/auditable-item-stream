@@ -4,7 +4,6 @@
 /**
  * The modes for auditable item stream behaviour.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const AuditableItemStreamModes = {
 	/**
 	 * Default mode allows full entry lifecycle operations.

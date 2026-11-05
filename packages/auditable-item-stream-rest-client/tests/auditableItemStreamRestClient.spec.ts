@@ -14,7 +14,7 @@ import {
 } from "@3sixty/auditable-item-stream-models";
 import { GuardError } from "@3sixty/core";
 import { SchemaOrgContexts, SchemaOrgTypes } from "@3sixty/standards-schema-org";
-import { HttpMethod } from "@3sixty/web";
+import { HttpMethod, MimeTypes } from "@3sixty/web";
 import { AuditableItemStreamRestClient } from "../src/auditableItemStreamRestClient.js";
 import {
 	createdResponse,
@@ -191,7 +191,7 @@ describe("AuditableItemStreamRestClient", () => {
 				ok: true,
 				status: 200,
 				headers: new Headers({
-					"content-type": "application/json",
+					"content-type": MimeTypes.Json,
 					link: `<${ENDPOINT}/${PREFIX}/${STREAM_ID}?cursor=page2>; rel="next"`
 				}),
 				json: async () => TEST_STREAM
@@ -373,7 +373,7 @@ describe("AuditableItemStreamRestClient", () => {
 				ok: true,
 				status: 200,
 				headers: new Headers({
-					"content-type": "application/json",
+					"content-type": MimeTypes.Json,
 					link: `<${ENDPOINT}/${PREFIX}?cursor=page2>; rel="next"`
 				}),
 				json: async () => TEST_STREAM_LIST
@@ -635,7 +635,7 @@ describe("AuditableItemStreamRestClient", () => {
 				ok: true,
 				status: 200,
 				headers: new Headers({
-					"content-type": "application/json",
+					"content-type": MimeTypes.Json,
 					link: `<${ENDPOINT}/${PREFIX}/${STREAM_ID}/entries?cursor=page2>; rel="next"`
 				}),
 				json: async () => TEST_ENTRY_LIST
@@ -707,7 +707,7 @@ describe("AuditableItemStreamRestClient", () => {
 				ok: true,
 				status: 200,
 				headers: new Headers({
-					"content-type": "application/json",
+					"content-type": MimeTypes.Json,
 					link: `<${ENDPOINT}/${PREFIX}/${STREAM_ID}/entries/objects?cursor=page2>; rel="next"`
 				}),
 				json: async () => TEST_ENTRY_OBJECT_LIST

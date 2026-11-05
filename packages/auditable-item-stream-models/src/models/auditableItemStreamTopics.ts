@@ -4,7 +4,6 @@
 /**
  * The topics for auditable item stream event bus notifications.
  */
-// eslint-disable-next-line @typescript-eslint/naming-convention
 export const AuditableItemStreamTopics = {
 	/**
 	 * A stream was created.
