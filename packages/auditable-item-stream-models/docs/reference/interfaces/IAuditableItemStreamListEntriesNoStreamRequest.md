@@ -26,7 +26,7 @@ The query parameters.
 
 > `optional` **conditions?**: `string`
 
-The conditions to filter the stream, JSON stringified `EntityCondition<IAuditableItemStreamEntry>`.
+The conditions to filter the stream, JSON stringified `EntityCondition&lt;IAuditableItemStreamEntry&gt;`.
 
 #### includeDeleted?
 
